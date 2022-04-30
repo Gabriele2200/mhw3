@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mhw3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<script src="mhw3.js" defer="true"></script>
+</head>
+<body>
+    <nav>
+        <a class="sezione">Menu</a>
+        <a class="sezione">Contatti</a>
+        <a class="sezione">Città</a>
+        <a class="sezione">Logout</a>
+    </nav>
+    
+    <form name='ricerca' id="ricerca">
+        <h1 id="b_titolo">Cerca il meteo della località che ti interessa oppure scegli la canzone ideale per visitare al meglio la città
+        </h1>
+
+        <div id="barra">
+        <label> <input type='text' name="content" id="content"></label> 
+        <select name="tipo" id="tipo">
+            <option value="meteo">Meteo</option>
+            <option value="musica">Musica</option>
+
+        </select>
+        <label>&nbsp;<input class="submit" type="submit" value="Cerca"></label>
+
+            
+        
+            
+    
+    
+        </div>
+    </form>
+
+
+    <div id="Risposta_R" class="hidden">
+                 
+        <div id="Meteo_div" class="hidden">
+            <h1 id="Title_M"> </h1>
+            <p id="Parag_M">
+                <span >
+
+                </span>
+            </p>
+            <a id="link_m"href=""> Clicca per maggiori informazioni</a>
+
+        </div>
+        <div id="Musica_div" class="hidden">
+                
+        </div>
+
+
+
+    </div>
+    
+
+
+
+    <header>
+      <div id="img-overlay"></div>
+      <div id="it-testo">
+        <div id="titolo"> I 5 posti da visitare a Catania</div>
+      </div>
+    </header>
+    <div id="profilo">
+        <img src="img/pr.png" id="img">
+        <h1 id="nome"> Gabriele Blandini</h1>
+        <em>Ultimo aggiornameto: 30/03/22</em>
+    </div>
+    
+    <article id="main"> 
+        <section id="sezione">
+            <div class="num">1|</div>
+            <div class="articolo">
+                <div class="Titoli_A">Piazza del Duomo</div>
+                <div class="voto">8.5/10</div>
+                <div class="text"> Piazza del Duomo di Catania è la principale piazza della città. In essa confluiscono tre strade, ovvero la via Etnea, la storica asse cittadina, la via Giuseppe Garibaldi e la via Vittorio Emanuele II che la attraversa da est ad ovest. Sul lato orientale della piazza sorge il Duomo, dedicato alla patrona della città festeggiata il 5 febbraio. </div>
+                <div class="text">Se venite a Catania visitarla è d'obbligo</div>
+            
+                    <img class="img_A" src="img/catania.jpeg" alt="Piazza">
+                
+            </div>
+
+
+        </section>
+
+
+
+        <section id="sezione">
+            <div class="num">2|</div>
+            <div class="articolo">
+                <div class="Titoli_A">Villa Bellini</div>
+                <div class="voto">7/10</div>
+                <div class="text">A Catania in via Etnea vicino al Palazzo delle Poste si trova Villa Bellini, un giardino pubblico considerato fra i più belli d'Europa. Intitolata al celebre compositore catanese Vincenzo Bellini, la Villa appartenne sin dall'inizio del 1700 ai principi Paternò Castello di Biscari, ed era caratterizzata da un giardino chiamato "Labirinto" per via dell'intreccio dei suoi viali. Nel 1854, la proprietà passò al Comune di Catania che commissionò a vari professionisti, ma la loro competizione non fece partire i lavori, solo in seguito fu affidato all'architetto Ignazio Landolina la trasformazione del giardino da residenza privata a parco pubblico. I lavori terminarono nel 1883 e il parco venne aperto alla cittadinanza.
+                    "I giardini di Villa Bellini ospitano stupendi alberi secolari e centinaia di piante esotiche, i viali sono adornati da statue e busti di personaggi illustri". </div>
+                <div class="text">Raccomandata per giornate estive</div>
+                
+                    <img class="img_A" src="img/villa.jpg" alt="Villa" >
+                
+            </div>
+
+
+        </section>
+
+        <section id="sezione">
+            <div class="num">3|</div>
+            <div class="articolo">
+                <div class="Titoli_A">Lungomare di Ognina</div>
+                <div class="voto">9/10</div>
+                <div class="text"> Il Lungomare di Ognina è il luogo ideale per fare una passeggiata oppure una corsetta a Catania, a pochi passi dal cuore della città. E oggi, grazie alla pista ciclabile, è così anche il luogo preferito dei ciclisti. Passeggiando lungo la costa si può ammirare il mare , ci si può sedere su una delle tante panchine per riposarsi oppure ci si può prendere un gelato in uno dei tanti locali storici. In Piazza Nettuno si trova un campetto da basket e una zona per fare sport all’aperto. E non possiamo non ricordare la grande piazza di divertimento.</div>
+                <div class="text">Ideale per le persone sportive</div>
+                
+                    <img class="img_A" src="img/lungomare.jpg" alt="lungomare">
+            
+            </div>
+
+
+        </section>
+
+        <section id="sezione">
+            <div class="num">4|</div>
+            <div class="articolo">
+                <div class="Titoli_A">Castello Ursino</div>
+                <div class="voto">10/10</div>
+                <div class="text"> Costruito per volere di Federico II tra il 1239 e il 1250, il Castello Ursino nacque all’interno del progetto difensivo delle coste orientali siciliane e sorgeva su un promontorio circondato dal mare.
+                    Il progetto dell’edificio fu ideato e realizzato per mano dell’architetto Riccardo da Lentini che decise di renderlo simbolo dell’autorità e del potere imperiale. Nel 1934 fu restaurato con l’intento di riportarlo all’originale stile svevo (dove non fu possibile a quello rinascimentale), e divenne la sede del Museo Civico di Catania. </div>
+                <div class="text">Perfetto per conoscere la storia di Catania</div>
+                
+                    <img class="img_A" src="img/cas.jpg" alt="Castello">
+                
+            </div>
+
+
+        </section>
+
+
+        <section id="sezione">
+            <div class="num">5|</div>
+            <div class="articolo">
+                <div class="Titoli_A">Teatro Massimo Bellini</div>
+                <div class="voto">8/10</div>
+                <div class="text"> Il Teatro Massimo “V. Bellini”, costruito su progetto dell’architetto milanese Carlo Sada, è stato inaugurato nel 1890. Nella sua sala da milleduecento posti, dall’acustica perfetta, si svolgono ogni anno una stagione d’opera ed una stagione sinfonica e da camera. Il “Bellini” dispone di un’orchestra di 105 elementi, di un coro di 84 elementi, di un nutrito gruppo di tecnici di palcoscenico e di laboratori scenografici. È chiaramente possibile, per coloro che vogliono semplicemente visitarlo, poterlo fare grazie alle visite guidate che sono organizzate dallo staff interno al Teatro.“ </div>
+                <div class="text">Ottima meta per gli amanti dello spettacolo</div>
+                
+                    <img class="img_A" src="img/teatro.jpg" alt="Teatro">
+                
+            </div>
+
+
+        </section>
+        
+
+
+    </article>
+
+
+    <footer>
+        <h1> Gabriele Blandini</h1>
+        <em id="emf"> 1000002230</em>
+    </footer>
+
+
+
+</body>
+</html>

@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+}
+
+
+header{
+    height: 500px;
+    background-image: url(img/catania1.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#img-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#it-testo{
+    width: 780px;
+    height: 500px;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#titolo{
+    font-family: 'Arial', sans-serif;
+    color: aliceblue;
+    font-size: 80px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: darkorange;
+    font-family: 'Roboto', sans-serif;
+    height: 70px;
+}
+
+.sezione{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: darkcyan;
+    color: white;
+    padding: 3px 10px;
+    border-radius: 20px;    
+
+}
+
+#profilo{
+    display: flex;
+    background-size: contain;
+    justify-content: center;
+    margin-top: -50px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 3px solid white;
+    z-index: 0;
+}
+
+
+#nome{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 3px;
+
+}
+
+em{
+    font-size: 20px;
+}
+
+
+
+
+#main{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+
+    
+}
+
+#sezione{
+    display: flex;
+
+}
+
+
+.num{
+    font-family: 'Roboto',sans-serif;
+    font-size: 40px;
+    color: darkorange;
+    margin-right: 40px;
+    margin-bottom: 120px;
+
+
+
+}
+.text{
+    font-size: x-large;
+    font-family: 'Roboto',sans-serif;
+    margin-bottom: 20px;
+}
+
+.articolo{
+    width: 66.67vw;
+    border-radius: 10px;
+    margin-bottom: 120px;
+    
+}
+
+.Titoli_A{
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    height: max-content;
+    font-weight: bold;
+    font-family: 'Roboto',sans-serif;
+    color: darkcyan;
+}
+
+.voto{
+    font-family: 'Roboto',sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: purple;
+}
+
+.img_A{
+    margin-bottom: 120px;
+    object-fit: cover;
+    width: 66.67vw;
+}
+
+
+#ricerca{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: darkcyan;
+}
+
+
+
+#barra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#b_titolo{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+
+
+
+
+
+footer {
+    background-color: black;
+    height: 80px;
+}
+
+footer h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:  relative;
+    
+}
+
+#emf{
+    font-size: large;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    justify-content: center;
+    position:  relative;
+    display: flex;
+    color: antiquewhite;
+
+}
+
+
+
+@media(max-width: 500px){
+    .text{
+        font-size: xx-large;
+        line-height: 1.5;
+    }
+    .Titoli_A{
+        font-size: 60px;
+    }
+    .num{
+        font-size: 60px;
+    }
+
+}
+
+#Risposta_R{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkcyan;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    padding: 20px;
+    border: 20px solid darkorange;
+}
+
+#link_m{
+    display: flex;
+    padding: 8px;
+
+    border-radius: 10px;
+    background-color: darkorange;
+    color: white;
+}
+
+
+.hidden{
+    display: none!important;
+
+}
+
+
+.track img {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.track span{
+    display: block;
+}
+
+.track a{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 3px 8px;
+    font-family: 'Roboto', sans-serif;
+    background-color: darkorange;
+    padding: 8px;
+    border-radius: 10px;
+    color: white;
+}
